@@ -59,19 +59,19 @@ function Home({ changeTheme, theme, sortedChains }) {
           {(search === ""
             ? chains
             : chains.filter((chain) => {
-                //filter
-                return (
-                  chain.chain.toLowerCase().includes(search.toLowerCase()) ||
-                  chain.chainId
-                    .toString()
-                    .toLowerCase()
-                    .includes(search.toLowerCase()) ||
-                  chain.name.toLowerCase().includes(search.toLowerCase()) ||
-                  (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
-                    .toLowerCase()
-                    .includes(search.toLowerCase())
-                );
-              })
+              //filter
+              return (
+                chain.chain.toLowerCase().includes(search.toLowerCase()) ||
+                chain.chainId
+                  .toString()
+                  .toLowerCase()
+                  .includes(search.toLowerCase()) ||
+                chain.name.toLowerCase().includes(search.toLowerCase()) ||
+                (chain.nativeCurrency ? chain.nativeCurrency.symbol : "")
+                  .toLowerCase()
+                  .includes(search.toLowerCase())
+              );
+            })
           ).map((chain, idx) => {
             return <Chain chain={chain} key={idx} />;
           })}

@@ -24,6 +24,8 @@
     },
     "56": {
         "rpcs": [
+            "https://rpc.templar.finance/bsc",
+            "wss://ws.templar.finance/bsc",
             "https://bsc-dataseed.binance.org/",
             "https://bsc-dataseed1.defibit.io/",
             "https://bsc-dataseed1.ninicoin.io/",
@@ -657,9 +659,9 @@
         "rpcWorking": false
     },
     "416": {
-      "rpcs": [
-        "https://rpc.sx.technology"
-      ]
+        "rpcs": [
+            "https://rpc.sx.technology"
+        ]
     },
     "499": {
         "rpcs": [],
@@ -1275,7 +1277,7 @@
             "https://mainnet.sherpax.io/rpc"
         ]
     },
-    "7777":{
+    "7777": {
         "rpcs": [
             "https://testnet1.rotw.games",
             "https://testnet2.rotw.games",
@@ -1284,8 +1286,8 @@
             "https://testnet5.rotw.games"
         ]
     },
-    "103090":{
-        "rpcs":[
+    "103090": {
+        "rpcs": [
             "https://evm.cryptocurrencydevs.org",
             "https://rpc.crystaleum.org"
         ]
